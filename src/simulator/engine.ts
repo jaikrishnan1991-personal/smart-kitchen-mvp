@@ -1,4 +1,4 @@
-import { FSMState, TelemetryData, Recipe, DEFAULT_RECIPES } from '@/types/appliance';
+import { FSMState, Recipe } from '@/types/appliance';
 
 const COOKING_SEQUENCE: FSMState[] = [
   'PRE_HEAT', 'HOMING', 'DISPENSE', 'DWELL_PRIMARY', 'FLIP', 'DWELL_SECONDARY', 'EJECT'
